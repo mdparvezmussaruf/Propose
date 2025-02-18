@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Yes/No Question</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="question-container">
+        <h1>Do you love me? ❤️</h1>
+        <button class="btn js-yes-btn" type="button">Yes</button>
+        <button class="btn js-no-btn" type="button">No</button>
+    </div>
+
+    <div class="cssload-main"></div> <!-- Heart Loader -->
+
+
+
+    <div class="result-container">
+        <h2>Yaaaa! huuuuu!! 🎉</h2>
+        <video class="gif-result" src="happy.mp4" loop></video>
+        <button class="btn js-click-btn" type="button" onclick="openFile()">For You</button>
+
+<script>
+    function openFile() {
+        window.location.href = "http://127.0.0.1:3000/do%20you%20love%20me%20code/love.html";
+    }
+</script>
+
+    </div>
+
+    <div class="heart-bg">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
